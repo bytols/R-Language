@@ -1,0 +1,8 @@
+print('bom dia')
+raio <- readline(prompt='insira o valor do raio')
+ 10raio <- as.integer(raio)
+espessura <- readline(prompt='qual a expessura?')
+espessura <- as.integer(espessura)
+comprimento <- readline(prompt='qual o comprimento?')
+comprimento <- as.integer(comprimento)
+print('seu raio é:' , raio , 'sua espessura é:' , espessura, 'seu comprimento é:' , comprimento)
